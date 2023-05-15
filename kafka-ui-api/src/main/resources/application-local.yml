@@ -37,7 +37,8 @@ kafka:
   #    -
   #      name: localUsingProtobufFile
   #      bootstrapServers: localhost:9092
-  #      protobufFile: messages.proto
+  #      protobufFiles:
+  #        - messages.proto
   #      protobufMessageName: GenericMessage
   #      protobufMessageNameByTopic:
   #        input-topic: InputMessage
